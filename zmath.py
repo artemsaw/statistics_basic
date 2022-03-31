@@ -1,4 +1,6 @@
 a = [1,4,5,6,333,4,5]
-b = [2,7,8,3,5,7,-5]
 
-print(a.sort)
+def miles_to_km(z):
+    return z * 1.8
+
+print(list(map(miles_to_km, a)))
