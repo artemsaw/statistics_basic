@@ -1,8 +1,8 @@
-a = 7
-if a >= 2 and a <= 17:
-    b = 3
-    p = a * a + b * b
+x1 = 1
+y1 = 1
+x2 = 1
+y2 = 8
+if x1 == x2 or y1 == y2:
+    print('YES')
 else:
-    b = 5
-p = (a + b) * (a + b)
-print(p)
+    print('NO')
